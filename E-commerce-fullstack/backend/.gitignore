@@ -1,0 +1,8 @@
+target/
+.env
+uploads/
+*.log
+.idea/
+*.iml
+.vscode/
+!.env.example

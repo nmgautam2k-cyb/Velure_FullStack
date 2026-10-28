@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "1234",
+      "role": "admin"
+    },
+    {
+      "name": "Gautam",
+      "email": "Gautam@123",
+      "password": "Gautam@123",
+      "role": "customer",
+      "id": "PpWlQxtulok"
+    },
+    {
+      "id": "oae0uefaUPU",
+      "name": "admin",
+      "email": "admin@123",
+      "password": "admin@123",
+      "role": "admin"
+    }
+  ],
+  "products": [
+    {
+      "title": "Beige pant",
+      "price": 2499,
+      "category": "pants",
+      "image": "/pant1.jpg",
+      "id": "pant1"
+    },
+    {
+      "title": "Brown Trousers",
+      "price": 1899,
+      "category": "pants",
+      "image": "/pant2.jpg",
+      "id": "pant2"
+    },
+    {
+      "title": "Pink pant",
+      "price": 1599,
+      "category": "pants",
+      "image": "/pant3.jpg",
+      "id": "pant3"
+    },
+    {
+      "title": "Green Shirt",
+      "price": 1299,
+      "category": "shirts",
+      "image": "/shirt1.webp",
+      "id": "shirt1"
+    },
+    {
+      "id": "shirt2",
+      "title": "Navy Blue Formal Shirt",
+      "price": 1499,
+      "category": "shirts",
+      "image": "/shirt2.webp"
+    },
+    {
+      "title": "Patterened Shirt",
+      "price": 1199,
+      "category": "shirts",
+      "image": "/shirt3.webp",
+      "id": "shirt3"
+    },
+    {
+      "title": "Green T-Shirt",
+      "price": 799,
+      "category": "tshirts",
+      "image": "/tshirt1.webp",
+      "id": "tshirt1"
+    },
+    {
+      "title": "Black Striped T-Shirt",
+      "price": 599,
+      "category": "tshirts",
+      "image": "/tshirt2.webp",
+      "id": "tshirt2"
+    },
+    {
+      "title": "Red T-Shirt",
+      "price": 699,
+      "category": "tshirts",
+      "image": "/tshirt3.webp",
+      "id": "tshirt3"
+    },
+    {
+      "title": "white Tshirt",
+      "price": 297,
+      "category": "tshirts",
+      "image": "/tshirt4.webp",
+      "id": "tshirt4"
+    },
+    {
+      "title": "cream",
+      "price": 19999,
+      "category": "tshirts",
+      "image": "/tshirt5.webp",
+      "id": "Pv8vkqNogw0"
+    },
+    {
+      "title": "velvet",
+      "price": 123,
+      "category": "tshirts",
+      "image": "/tshirt6.webp",
+      "id": "mi98BbUxSpc"
+    }
+  ],
+  "orders": [
+    {
+      "id": "KEI-lle2QMY",
+      "userId": "PpWlQxtulok",
+      "items": [
+        {
+          "productId": "tshirt2",
+          "quantity": 1
+        },
+        {
+          "productId": "pant1",
+          "quantity": 1
+        }
+      ],
+      "status": "shipped",
+      "totalAmount": 3098,
+      "createdAt": "2026-08-18T18:03:54.726Z",
+      "paymentMethod": "PhonePe"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
